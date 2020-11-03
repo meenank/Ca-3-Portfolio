@@ -1,0 +1,92 @@
+.services{
+    /* background-color:  #101820FF; */
+    /* border-bottom: 1px solid black; */
+    
+}
+
+.servheading{
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.servheading p{
+    color: aquamarine;
+    font-size: 40px;
+    padding-left: 100px;
+    text-decoration: overline;
+    text-decoration-color: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: yellow;
+}
+
+.standout{
+    display: inline-block;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.standout p{
+    word-spacing: 50px;
+
+    width: 50%;
+    padding-left: 25%;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    word-spacing: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.serv1{
+    background-color: #101820FF;
+    width: 100%;
+
+}
+
+.servc{
+    line-height: 35px;
+    word-spacing: 5px;
+    color: aliceblue;
+    width: 25%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 75px;
+    text-align: center;
+    display: inline;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#servc3{
+    float: right;
+    margin-right: 70px;
+}
+
+#servc2{
+    margin-left: 80px;
+}
+.servc :nth-child(1){
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+.servc :nth-child(2){
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Merriweather', serif;
+}
+
+.servc :nth-child(3){
+    color: azure;
+    font-family: 'Miriam Libre', sans-serif;
+
+}
+
+.servc :hover{
+    color
+}
+

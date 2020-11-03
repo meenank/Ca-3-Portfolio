@@ -1,0 +1,81 @@
+html{
+    background-color:  midnightblue;
+    font-family: 'Cabin', sans-serif;
+}
+
+.head{
+    border-bottom: 2px solid midnightblue;
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
+form{
+    border-radius: 15px;
+    background-color: wheat;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+input:hover{
+    transition-duration: 0.7s;
+    box-shadow: 0 6px 20px 0 black, 0 6px 20px 0 black;
+}
+#formhead{
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+body{
+    text-align: center;
+}
+label{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.long{
+    
+    width: 85%;
+    /* border-bottom: 1px soild blue; */
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Cabin', sans-serif;
+}
+button{
+    color: white;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+    border: none;
+    background-color:midnightblue;
+    border-radius: 5px;    
+}
+
+#mes{
+    height: 50px;
+}
+
+.goback a{
+    margin-top: 20px;
+    color: midnightblue;   
+    text-decoration: none;
+    font-size: 40px;    
+}
+.goback{
+    margin-top: 35px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    border: 100px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: wheat;
+}
