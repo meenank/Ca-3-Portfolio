@@ -11,13 +11,9 @@
 }
 
 .servheading p{
-    color: aquamarine;
     font-size: 40px;
     padding-left: 100px;
-    text-decoration: overline;
-    text-decoration-color: overline;
-    text-decoration-style: wavy;
-    text-decoration-color: yellow;
+   color: yellow;
 }
 
 .standout{
