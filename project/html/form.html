@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Form</title>
+        <link rel="stylesheet" href="../css/form.css">
+        <script type="text/javascript" src="../js/validate.js"></script>
+    </head>
+    <body>
+        <div class="goback">
+            <a href="../html/home.html">&#8592;</a>
+        </div>
+        <form class="cusform" name="sayhello">
+            <div class="head">
+                <label id="formhead">Say Hello! <br></label>
+            </div>
+            <!-- name -->
+            <label for="name" class="lab">Name </label>
+             <input type="text" name="name" id="cusname" class="long" placeholder="Enter your name"><br>
+             <!-- name end -->
+            <!-- phone number -->
+            <label for="phone" class="lab">Mobile Number</label>
+            <input type="number" name="phone" id="cusphone" max="10000000000"class="long" placeholder="Enter Mobile Number"><br>
+            <!-- phone number end -->
+            <!-- email -->
+            <label for="mail" class="lab">E-mail</label>
+            <input type="email" name="mail" class="long" id="cusmail" placeholder="Enter E-mail address"><br>
+            <!-- email end -->
+            <!-- message -->
+            <label for="message" class="lab"> Message</label>
+            <input type="text" name="message" class="long" id="mes" placeholder="anything you want to say...">
+            <!-- button -->
+            <button type="submit" onclick="ValidateInput()">Submit</button>
+            <!-- button end -->
+        </form>
+    </body>    
+</html>
