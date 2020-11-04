@@ -22,4 +22,10 @@ function ValidateInput(){
   if(name1!="" && mobile1!="" && mailid1!=""){
     document.getElementById("formhead").innerHTML="data submitted, will respond in 24hrs :)"
   }
+  
+  var mp = mobile1.toString().length;
+
+  if(mp>10 || mp<10){
+    window.alert("PLease check the entered mobile number!");
+  }
 }
